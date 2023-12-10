@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="10dp"
+    android:gravity="center"
+    tools:context=".OpenPage">
+
+    <Button
+        android:id="@+id/resultS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result Sheet"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/vac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check VC"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/bmiCal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/digitalTaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digital Tajbih"
+        android:textSize="30sp" />
+
+</LinearLayout>
